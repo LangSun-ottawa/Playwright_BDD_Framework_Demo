@@ -1,0 +1,20 @@
+loginpage:
+  - title: 登录
+    des: 登录成功
+    cases:
+      - name: 打开
+        method: goto
+        url: https://test.com
+
+      - name: 输入
+        method: fill
+        selector: xpath selector
+        value: 'your username'
+
+      - name: 输入
+        method: fill
+        selector: xpath selector
+        value: 'yourpwd'
+      - name: 点击
+        method: click
+        selector: //*[@id="loginBtn"]
